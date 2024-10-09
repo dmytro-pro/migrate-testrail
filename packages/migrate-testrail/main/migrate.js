@@ -1,6 +1,17 @@
 import debug from 'debug';
-import { getTestRailUrl, getTestRailEndpoints, fetchFromTestRail, downloadFile } from './testrail.js';
-import { getTestomatioEndpoints, loginToTestomatio, uploadFile, fetchFromTestomatio, postToTestomatio, putToTestomatio } from './testomatio.js';
+import {
+  getTestRailUrl,
+  getTestRailEndpoints,
+  fetchFromTestRail,
+  downloadFile,
+  getTestomatioEndpoints,
+  loginToTestomatio,
+  uploadFile,
+  fetchFromTestomatio,
+  postToTestomatio,
+  putToTestomatio
+} from './retrywrapper.js';
+
 
 const logData = debug('testomatio:testrail:migrate');
 

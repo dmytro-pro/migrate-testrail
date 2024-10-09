@@ -1,0 +1,9 @@
+packages:
+  - name: migrate-testrail
+    functions:
+      - name: main
+        runtime: nodejs:18
+        main: run.js
+        web: true
+#    environment:
+#      NODE_ENV: production

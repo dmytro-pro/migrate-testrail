@@ -1,4 +1,4 @@
-import 'dotenv/config'
+import 'dotenv/config.js'
 import migrateTestCases from './migrate.js';
 import { configureTestRail } from './testrail.js';
 import { configureTestomatio } from './testomatio.js';
