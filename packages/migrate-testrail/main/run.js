@@ -44,7 +44,7 @@ await migrateTestCases();
 // 2024-10-10T14:35:47.44518201Z  stderr:     at async file:///tmp/5EbMULyR/run.js:28:1
 // 2024-10-10T14:35:47.491353826Z stderr
 
-// todo: rate limit cases handling for 429 errors from testrail (wait+retry-after)
+// todo: debug rate limit cases handling for 429 errors from testrail (wait+retry-after). Retry-wrapper is already operational, but not debugged due to previous 404 errors
 // https://support.testrail.com/hc/en-us/articles/7077175066388-Error-handling
 // 180 Requests per instance, per minute for TestRail Cloud Professional subscriptions.
 // 300 Requests per instance, per minute for TestRail Cloud Enterprise subscriptions.
