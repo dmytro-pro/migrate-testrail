@@ -24,6 +24,8 @@ export const handler = async (event) => {
         );
 
         console.log('Configuring Testomatio...');
+        console.log('Host...' + event.TESTOMATIO_HOST || process.env.TESTOMATIO_HOST || 'https://app.testomat.io');
+
         configureTestomatio(
             event.TESTOMATIO_TOKEN,
             event.TESTOMATIO_HOST || process.env.TESTOMATIO_HOST || 'https://app.testomat.io',
